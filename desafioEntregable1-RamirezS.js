@@ -12,7 +12,7 @@ class ProductManager {
     }
   
     // Agrega un nuevo evento al array de productos, con los datos recibidos por parámetro.
-    addProduct(title="Producto Prueba", description ="este es un producto prueba", price = 200, thumbnail = "sin imagen", code="abc123", stock) {
+    addProduct(title="Producto Prueba", description ="este es un producto prueba", price = 200, thumbnail = "sin imagen", code="abc123", stock=25) {
       // Aumentamos en 1 el contador de IDs para asignar un nuevo ID al producto.
       let check = false;
       this.products.forEach((product) =>
